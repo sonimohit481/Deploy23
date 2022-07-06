@@ -1,0 +1,203 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+  <!-- image slider -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/001/978/288/original/volunteer-collecting-blood-donation-free-vector.jpg" />
+    </div>
+    <div class="mySlides fade">
+      <img
+        src="https://media.istockphoto.com/vectors/human-blood-type-and-rh-factor-cute-blood-drops-in-cartoon-style-vector-id1307837085?k=20&m=1307837085&s=612x612&w=0&h=8KaOLRNhy-sNTq03ZCbEZ1Kc9AVcCvWQppF_kh4szXo=" />
+    </div>
+    <div class="mySlides fade">
+      <img src="https://www.paho.org/sites/default/files/wbdd-2022-banner-web-text1500x750_0.jpg" />
+    </div>
+    <div class="mySlides fade">
+      <img src="https://img.graphicsurf.com/2020/08/blood-donation-vector-illustration.jpg" />
+    </div>
+    <div class="mySlides fade">
+      <img
+        src="https://img.freepik.com/free-vector/blood-donation-isometric-illustration-donor-hand-with-red-drop-injured-persons-blue_1284-28491.jpg?w=2000" />
+    </div>
+  </div>
+  <hr>
+  <!-- process div -->
+  <div id="process">
+    <div id="Processtop">
+      <h2 style="color: red">Process for Blood Donation</h2>
+      <p>
+        The blood donation process from the time you arrive until the time you leave takes about an hour. The donation
+        itself is only about 8-10 minutes on average.
+      </p>
+    </div>
+    <div id="processbottom">
+      <div class="process">
+        <img src="https://c.tenor.com/XXUwo9FToIAAAAAC/blood-letting-blood-donation.gif" height="200px" width="100%" />
+        <h3>Registration</h3>
+        <p>You need to complete a very simple registration form. Which contains all required contact information
+          to enter in the donation process. </p>
+      </div>
+
+      <div class="process">
+        <img src="https://c.tenor.com/gbx-REIqiqIAAAAM/donate-blood-sav-a-life.gif" height="200px" width="100%" />
+        <h3>Screening</h3>
+        <p>A drop of blood from your finger will take for simple test to ensure that your blood iron levels are
+          proper enough for donation process.</p>
+      </div>
+
+      <div class="process">
+        <img src="https://europeanbloodalliance.eu/wp-content/uploads/2018/04/EBA_overview.gif" height="200px"
+          width="100%" />
+        <h3>Donation</h3>
+        <p>After ensuring and passed screening test successfully you will be directed to a donor bed for
+          donation. It will take only 6-10 minutes.</p>
+      </div>
+    </div>
+  </div>
+  <br />
+  <!-- volunter -->
+  <div id="volunter">
+    <div id="voluntertop">
+      <h4 class=" display-6">Our Donor's</h4>
+      <p>The volunteers who give their time and talents help to fulfill our mission.</P>
+    </div>
+    <div id="volunterbottom">
+      <div class="volunterid">
+        <img src="/static/image/mohit.jpg">
+        <h4>Mohit</h4>
+        <p>Haryana</p>
+      </div>
+      <div class="volunterid">
+        <img src="/static/image/jitender.jpg">
+        <h4>Jitender</h4>
+        <p>UP</p>
+
+      </div>
+      <div class="volunterid">
+        <img src="/static/image/sarwan.jpg">
+        <h4>Sarwan</h4>
+        <p>UK</p>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- donation campaign -->
+  <div id="campaign">
+    <div id="campaigntop">
+      <h4> DONATION CAMPAIGNS </h4>
+      <p>Campaigns to encourage new donors to join and existing to continue to give blood.</p>
+    </div>
+    <div id="campaignbottom">
+      <div id="bottom_1">
+        <div class="bottomleft">
+          <img src="https://thedispatch.blob.core.windows.net/thedispatchimages/2021/06/blood-donation-ut.jpg"
+            height="200px" width="100%" />
+        </div>
+        <div class="bottomright">
+          <h4>WORLD BLOOD DONORS DAY</h4>
+          <p>Every year, on 14 June, countries around the world celebrate World Blood Donor Day. The event serves
+            to thank voluntary.</p>
+        </div>
+      </div>
+      <div id="bottom_2">
+        <div class="bottomleft">
+          <img src="https://www.bloodcenter.org/webres/Image/NEW%20Marketing%20toolkits/ABO/oneg.png" height="200px"
+            width="100%">
+        </div>
+        <div class="bottomright">
+          <h4>O-BLOOD DONORS NEEDED</h4>
+          <p>O Negative blood cells are called universal meaning they can be transfused to almost any patient in
+            need and blood cells are safest.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Become A volunter/paitent div -->
+  <div class="container-fluid" id="donorpaitent">
+    <div class="row p-4">
+      <div class="col-md-4  donorpaitent">
+        <img src="https://c.tenor.com/XXUwo9FToIAAAAAC/blood-letting-blood-donation.gif" height="300px" width="100%">
+        <button><a href="/donor/donorsignup">Register As Donor</a></button>
+      </div>
+      <div class="col-md-4  donorpaitent">
+        <img src="https://cdn.dribbble.com/users/1973278/screenshots/6998323/hospital.gif" height="300px" width="100%">
+        <button><a href="/patient/patientsignup">Register As Patient</a></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- <div >
+
+  </div> -->
+  <div id="about_us">
+    <h3>About Us</h3>
+    <p>The "SAVING LIFE"- web portal to facilitate blood donation, has been developed with the idea to solve the
+      shortcomings of blood donation system now a days. The web portal is in support to all the user who is accessing
+      the web portal even if the user is a visitor, patient, donor, even the admin itself. Moreover, the portal is
+      designed in such a way that it is simple to navigate and very easy for the user to understand the designed.</p>
+  </div>
+  <!--  -->
+  <div id="contact">
+    <!-- <div id="contact_us"> -->
+    <div id="contact_info">
+      <h4 class="heading">CONTACT US</h4>
+      <p>
+        <i class="fa fa-envelope"></i>
+        savinglife@gmail.com
+      </p>
+      <p>
+        <i class="fa fa-phone"></i>
+        9468209127
+      </p>
+      <p>
+        <i class="fa fa-map-marker"></i>
+        hiar Road, sirsa
+      </p>
+    </div>
+    <div id="contact_map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3470.9739733044967!2d75.04193455080305!3d29.546252248800705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39114dab7ef1ce61%3A0x4a9b3ace71b1621e!2sChaudhary%20Devi%20Lal%20University!5e0!3m2!1sen!2sin!4v1655734911732!5m2!1sen!2sin"
+        width="400" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- </div> -->
+    <div id="quicklink">
+      <h4 class="heading ">QUICK LINKS</h4>
+      <a href="/" class="active"><i class="fas fa-home"></i>&nbsp; Home</a>
+      <a href="/patient/patientlogin"><i class="fas fa-procedures"></i>&nbsp; Patient</a>
+      <a href="/donor/donorlogin"><i class="fas fa-user"></i>&nbsp; Donor</a>
+      <a href="/adminlogin"><i class="fas fa-user-shield"></i>&nbsp; Admin</a>
+    </div>
+  </div>
+  {% include "blood/footer.html" %}
+
+
+</body>
+<script>
+  // for the image slider
+  let slideposition = 0;
+  image_slider();
+  function image_slider() {
+    let a;
+    let slides = document.querySelectorAll(".mySlides");
+    for (a = 0; a < slides.length; a++) {
+      slides[a].style.display = "none";
+    }
+    slideposition++;
+    if (slideposition > slides.length) {
+      slideposition = 1;
+    }
+    slides[slideposition - 1].style.display = "block";
+    setTimeout(image_slider, 3000);
+  }
+</script>
+
+</html>

@@ -1,0 +1,326 @@
+    * {
+      margin: 0;
+    }
+
+    /* mobile */
+    #header {
+      background-color: rgb(220, 6, 6);
+      color: rgb(255, 255, 255);
+      padding: 10px;
+    }
+
+    #header h1 {
+      font-size: 17px;
+      text-align: center;
+    }
+
+    .topnav {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .topnav a {
+      display: block;
+      font-weight: 700;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .mySlides {
+      display: none;
+      box-sizing: content-box;
+    }
+
+    .slideshow-container>.mySlides>img {
+      width: 100%;
+      height: 300px;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .5;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    #process {
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid red; */
+      width: 90%;
+      margin: 20px auto;
+      border-radius: 15px;
+      font-size: 20px;
+      text-align: center;
+      padding: 20px 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    #processbottom {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      margin: 15px 0px;
+    }
+
+    .process {
+      margin: 0px 30px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      border-radius: 15px;
+      padding: 10px;
+    }
+
+    .process>img {
+      margin: 10px 0px;
+      border-radius: 15px;
+    }
+
+    #volunter {
+      display: flex;
+      background-color: rgb(213, 22, 22);
+      width: 90%;
+      margin: 10px auto;
+      padding: 15px;
+      /* border-radius: 15px; */
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+      flex-direction: column;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      color: aliceblue;
+    }
+
+    #volunterbottom {
+      display: grid;
+      grid-template-rows: repeat(3, 30%);
+      gap: 20px;
+      padding: 20px;
+      margin: auto;
+    }
+
+    #voluntertop>h4 {
+      color: white;
+      text-shadow: 3px 3px #0b0808;
+      font-size: 30px;
+    }
+
+    .volunterid {
+      margin: 10px 20px;
+      padding: 10px;
+      gap: 10px;
+      background-color: rgb(0, 0, 0);
+      box-shadow: rgba(254, 254, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.4) 0px 8px 16px -8px;
+      border-radius: 15px;
+    }
+
+    .volunterid>img {
+      width: 100%;
+      height: 150px;
+      border-radius: 15px;
+    }
+
+    #campaign {
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px;
+      background-color: rgb(230, 230, 230);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      text-align: center;
+      justify-content: justify;
+      align-items: center;
+    }
+
+    #campaign h4 {
+      color: red;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    #campaignbottom {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      flex-direction: column;
+    }
+
+    #bottom_1,
+    #bottom_2 {
+      display: grid;
+      grid-template-columns: none;
+      grid-template-rows: 1fr;
+      border-radius: 10px;
+      padding: 10px;
+      /* border: 2px solid green; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .bottomleft>img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgb(5, 5, 7);
+    }
+
+    .bottomright {
+      display: flex;
+      flex-direction: column;
+      justify-content: justify;
+      margin: auto auto;
+    }
+
+    .donorpaitent {
+      width: 97%;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      gap: 20px;
+      border-radius: 15px;
+      /* border: 2px solid red; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 10px auto;
+    }
+
+    .donorpaitent>img,
+    button {
+      border-radius: 10px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .donorpaitent>button {
+      padding: 10px;
+      background-color: #e81313;
+      font-size: 20px;
+    }
+
+    .donorpaitent>button>a {
+      color: white;
+    }
+
+    #about_us {
+      background-color: #0b0808;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      border-bottom: 1px solid white;
+    }
+
+    #about_us>h3 {
+      color: #ff0000;
+    }
+
+    #contact {
+      background-color: #0b0808;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-content: center;
+      text-align: center;
+      margin: auto;
+      border-bottom: 1px solid white;
+    }
+
+    #contact_map iframe {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      border: 2px solid blue;
+    }
+
+    #contact .heading {
+      color: #ff0000;
+    }
+
+    .Copyright {
+      background-color: #0b0808;
+    }
+
+    #quicklink {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    #quicklink a {
+      color: white;
+      padding: 5px;
+    }
+
+
+    /* laptop */
+    @media screen and (min-width: 769px) {
+      #header h1 {
+        font-size: 30px;
+      }
+
+      .topnav a {
+
+        font-size: 20px;
+      }
+
+      #processbottom {
+        flex-direction: row;
+      }
+
+      .slideshow-container>.mySlides>img {
+        height: 650px;
+      }
+
+      #volunter {
+        width: 98%;
+      }
+
+      .volunterid {
+        margin: 10px 60px;
+      }
+
+      .volunterid>img {
+        width: 100%;
+        height: 200px;
+      }
+
+      #volunterbottom {
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: none;
+      }
+
+      #campaign {
+        width: 98%;
+        margin: auto;
+      }
+
+      #campaignbottom {
+
+        flex-direction: row;
+      }
+
+      #bottom_1,
+      #bottom_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+      }
+
+      #contact {
+        flex-direction: row;
+      }
+    }
